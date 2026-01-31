@@ -1,0 +1,36 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+.container1
+{
+    display:flex;
+    border:2px solid blue;
+    height:100px;
+    width:800px;
+    flex-wrap:wrap;
+    align-items:center;
+    align-content:space-evenly;
+}
+.container1>.box
+{
+    background-color: pink;
+    width:150px;
+}
+.container2
+{
+    display:flex;
+    border:2px solid blue;
+    height:400px;
+    width:800px;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items: end;    
+}
+.container2>.box
+{
+    background-color: pink;
+    width:80px;
+    height:50px;
+}
