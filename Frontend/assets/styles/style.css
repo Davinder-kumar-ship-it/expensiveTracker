@@ -3,24 +3,25 @@
     padding:0px;
     margin:0px;
 }
-body{
-    display:grid;
-    grid-template-rows:10% 90%;
-}
-header
-{
-    background-color: black;
-    color:white;
-}
 main
 {
-    display:grid;
-    grid-template-columns:20% 80%;  
-    height:90vh;
+    display:flex;
+    background-color:rgb(224, 200, 204);
+    height:100vh;
+    
 }
 #leftSide,#rightSide
 {
     background-color: rgb(133, 127, 127);
     border:1px solid white ;
     height:100%;
+
+}
+#rightSide
+{
+    flex-grow:1;
+}
+#leftSide
+{
+    width:20%;
 }
