@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+=======
+*
+{
+    padding:0px;
+    margin:0px;
+}
+main
+{
+    display:flex;
+    background-color:rgb(224, 200, 204);
+    height:100vh;
+    
+}
+#leftSide,#rightSide
+{
+    background-color: rgb(133, 127, 127);
+    border:1px solid white ;
+    height:100%;
+
+}
+#rightSide
+{
+    flex-grow:1;
+}
+#leftSide
+{
+    width:20%;
+}
+>>>>>>> main
